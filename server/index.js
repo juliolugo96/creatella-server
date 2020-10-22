@@ -13,7 +13,7 @@ module.exports = () => {
     facesLen = faces.length;
 
   // Create 500 products
-  for (let i = 0; i < 63; i++) {
+  for (let i = 0; i < 500; i++) {
     data.products.push({
       id: getRandomInRange(0, 100000) + "-" + getRandomString(),
       size: getRandomInRange(12, 40),
